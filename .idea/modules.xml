@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gb_java_oop.iml" filepath="$PROJECT_DIR$/gb_java_oop.iml" />
       <module fileurl="file://$PROJECT_DIR$/lectures/lecture2/lecture2.iml" filepath="$PROJECT_DIR$/lectures/lecture2/lecture2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/lecture3/lecture3.iml" filepath="$PROJECT_DIR$/lectures/lecture3/lecture3.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminars/seminar1/seminar1.iml" filepath="$PROJECT_DIR$/seminars/seminar1/seminar1.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminars/seminar2/seminar2.iml" filepath="$PROJECT_DIR$/seminars/seminar2/seminar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminars/seminar3/seminar3.iml" filepath="$PROJECT_DIR$/seminars/seminar3/seminar3.iml" />
     </modules>
   </component>
 </project>
