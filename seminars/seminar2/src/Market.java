@@ -67,7 +67,7 @@ public class Market implements MarketBehavior, QueueBehavior {
                 takeOrders();
                 giveOrders();
                 releaseFromQueue();
-            System.out.println("\n");
+            System.out.println("\n--- Ожидание новых посетителей!---\n");
         };
         Thread thread = new Thread(task);
         Random random = new Random();
