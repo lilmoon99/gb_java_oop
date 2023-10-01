@@ -1,5 +1,6 @@
 package org.example.View;
 
+import org.example.Data.Flow;
 import org.example.Data.Student;
 import org.example.Data.StudentGroup;
 import org.example.Data.User;
@@ -25,4 +26,7 @@ public class UserView {
         logger.info(students.toString());
     }
 
+    public void sendOnConsoleFlow(Flow flow) {logger.info(flow.toString());}
+
+    public void sendOnConsoleListFlow(List<Flow> flows) {logger.info(flows.toString());}
 }

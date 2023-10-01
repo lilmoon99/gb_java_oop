@@ -47,12 +47,11 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "firstName='" + firstName + '\'' +
-                ", secondName='" + secondName + '\'' +
-                ", patronymic='" + patronymic + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                '}';
+        return "User:" +
+                " FirstName: " + firstName +
+                ", SecondName: " + secondName + '\'' +
+                ", Patronymic: " + patronymic + '\'' +
+                ", DateOfBirth: " + dateOfBirth + "\n";
     }
 
     @Override

@@ -30,10 +30,10 @@ public class StudentGroup implements Iterable<Student> {
 
     @Override
     public String toString() {
-        return "StudentGroup{" +
-                "studentList=" + studentList +
-                ", teacher=" + teacher +
-                '}';
+        return "\nStudentGroup:" +
+                "\nStudents:" + studentList +
+                ",\nTeacher: " + teacher +
+                '\n';
     }
 
     @Override
