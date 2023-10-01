@@ -14,7 +14,7 @@ public class StudentGroupIterator implements Iterator<Student> {
 
     @Override
     public boolean hasNext() {
-        return counter <= studentList.size() - 1;
+        return counter < studentList.size();
     }
 
     @Override
