@@ -1,4 +1,8 @@
-package org.example;
+package org.example.contoller;
+
+import org.example.data.Student;
+import org.example.service.StudentService;
+import org.example.view.StudentView;
 
 public class StudentController implements UserController<Student>{
     StudentService studentService = new StudentService();

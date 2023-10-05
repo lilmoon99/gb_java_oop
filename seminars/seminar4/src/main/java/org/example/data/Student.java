@@ -1,4 +1,4 @@
-package org.example;
+package org.example.data;
 
 public class Student extends User implements Comparable<Student>{
     private Long studentId;

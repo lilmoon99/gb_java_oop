@@ -1,4 +1,6 @@
-package org.example;
+package org.example.view;
+
+import org.example.data.User;
 
 import java.util.List;
 
