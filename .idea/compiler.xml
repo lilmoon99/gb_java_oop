@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="seminar4" />
+        <module name="lecture5" />
+        <module name="seminar5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
