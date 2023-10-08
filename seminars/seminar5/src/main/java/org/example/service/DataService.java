@@ -58,13 +58,22 @@ public class DataService {
         return users;
     }
 
-    public List<User> getAllStudent(){
-        List<User> result = new ArrayList<>();
+    public List<Student> getAllStudent(){
+        List<Student> result = new ArrayList<>();
         for (User u: users){
             if (u instanceof Student){
-                result.add(u);
+                result.add((Student)u);
             }
         }
         return result;
+    }
+
+    public Teacher getTeacher(){
+        for (User u : users){
+            if (u instanceof Teacher){
+                return (Teacher)u;
+            }
+        }
+        return null;
     }
 }
