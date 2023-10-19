@@ -12,7 +12,7 @@ public class Main {
 //        System.out.println(number1);
         CalculatorController calculatorController = new CalculatorController();
         do {
-            calculatorController.initProgram();
+            calculatorController.initCalculator();
             calculatorController.getResult();
             System.out.println("""
                 Want to try again?

@@ -59,7 +59,6 @@ public class CalculatorService implements ICalculatorService {
     }
 
     public void start() {
-        initCalculator();
         Map<String, Operator> operatorMap = new HashMap<>();
         operatorMap.put("+", Operator.ADD);
         operatorMap.put("-", Operator.SUB);
@@ -86,5 +85,13 @@ public class CalculatorService implements ICalculatorService {
 
     public ComplexNumber getResult() {
         return result;
+    }
+
+    public ComplexNumber getNumber1(){
+        return complexNumberCalculator.getNumber1();
+    }
+
+    public ComplexNumber getNumber2(){
+        return complexNumberCalculator.getNumber2();
     }
 }

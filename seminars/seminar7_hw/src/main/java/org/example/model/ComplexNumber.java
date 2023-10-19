@@ -28,8 +28,6 @@ public class ComplexNumber implements IComplexNumber {
     public void setImaginary(double imaginary) {
     this.imaginary = imaginary;
     }
-
-
     @Override
     public String toString() {
         if (imaginary > 0) return real + "+" + imaginary + "i";
